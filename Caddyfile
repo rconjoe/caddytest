@@ -1,4 +1,4 @@
-https://caddy-production-19a9.up.railway.app:443 {
+:443 {
         bind {$ADDRESS}
         reverse_proxy /ws/* http://tacit-existence-production.up.railway.app:3001
         reverse_proxy /* http://server-production-3a28.up.railway.app:8000
