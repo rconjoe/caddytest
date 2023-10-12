@@ -1,5 +1,5 @@
-:80 {
+:443 {
         bind {$ADDRESS}
         reverse_proxy /ws/* https://tacit-existence-production.up.railway.app:3001
-        reverse_proxy /* https://server-production-3a28.up.railway.app:443
+        reverse_proxy /* https://server-production-3a28.up.railway.app:8000
 }
