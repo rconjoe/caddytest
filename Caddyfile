@@ -1,4 +1,4 @@
-https://caddy-production-19a9.up.railway.app:80 {
+:80 {
         bind {$ADDRESS}
         reverse_proxy /ws/* http://tacit-existence-production.up.railway.app:3001
         reverse_proxy /* http://monorail.proxy.rlwy.net:57199
